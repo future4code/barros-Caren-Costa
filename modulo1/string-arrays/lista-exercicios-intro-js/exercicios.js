@@ -44,7 +44,7 @@ function calculaIMC(peso, altura) {
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
- let nome=("Caren")
+ let nome=("Jorge")
  let idade=("19")
  let email=("carenfcosta@gmail.com")
   console.log=(`Meu nome é ${nome}, tenho ${idade} anos e o meu email é ${email}.`);
@@ -68,41 +68,34 @@ function imprimeTresCoresFavoritas() {
 
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
+  string=toUpperCase()
   // implemente sua lógica aqui
-string=toUpperCase()
-
-
 }
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
-  // implemente sua lógica aqui
   console.log=(custo/valorIngresso)
+  // implemente sua lógica aqui
   
 }
 
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   string1.length=string2.length
-
     // implemente sua lógica aqui
-
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
     return primeiroElemento=array[0]
-    
-  // implemente sua lógica aqui
+    // implemente sua lógica aqui
 
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   return array[array.lenght-1]
-
   // implemente sua lógica aqui
-
 }
 
 // EXERCÍCIO 11
@@ -111,9 +104,7 @@ function trocaPrimeiroEUltimo(array) {
   let novoArr=array.splice(0,1,array[ultNum])
   array.splice(ultNum,1,novoArr[0])
   return array
-
   // implemente sua lógica aqui
-
 }
 
 // EXERCÍCIO 12
